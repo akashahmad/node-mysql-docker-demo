@@ -1,0 +1,10 @@
+npx sequelize-cli model:generate --name admin --attributes id:integer,firstName:string,lastName:string,email:string,password:string,role:string,shopId:integer
+
+npx sequelize-cli model:generate --name shop --attributes id:integer,shopName:string,address:string,phone:string,logo:string
+
+npx sequelize-cli model:generate --name customers --attributes id:bigint,fullName:string,address:string,phone:string,shopId:integer,addedByAdminId:integer
+
+npx sequelize-cli model:generate --name money --attributes id:bigint,customerId:bigint,particular:string,shopId:integer,billNo:string,amount:float,status:string,currency:string,detail:string,transactionDate:date
+
+npx sequelize-cli model:generate --name gold --attributes id:bigint,shopId:integer,customerId:bigint,billNo:string,status:string,purity:float,grossWeight:float,pureWeight:float,transactionDate:date
+

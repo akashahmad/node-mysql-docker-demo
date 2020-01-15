@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "test1234",
+    "database": "test_db",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "pos_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "eagle_eye",
+    "password": "eagleeye!$%",
+    "database": "test_db",
+    "host": "eagle-eyedb.ck5w2gsyk40q.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "jwt":{
+    "passPhrase":"123456789012345678901234567890"
+  }
+}
